@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgba(0, 89, 255, 0.425);
+}
+
+.header-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    padding: 0 330px;
+    gap: 12px;
+}
+
+.links {
+    width: 80px;
+}
+
+.logo{
+    grid-column: 1/2;
+    padding-left: 20px;
+}
+
+.margin{
+    margin-right: 8px;
+}
+
+.links a{
+    color: rgb(1, 47, 100);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bolsas{
+    width: 160px;
+    margin-left: -10px;
+}
+
+.unidades{
+    width: 90px;
+}
+
+.empresas{
+    width: 120px;
+}
+
+.fa-magnifying-glass{
+    margin-right: 5px;
+}
+
+.search-text{
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+    width: 80px;
+}
+
+.login-btn{
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 180px;
+    height: 28px;
+    grid-column: 10/12;
+    font-weight: 500;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr .45fr;
+}
+
+.gif{
+    background-image: url("https://eventos.sp.senac.br/wp-content/uploads/2024/08/cover-evento-casa-aberta-senac-2024.webp");
+    grid-column: 1/-1;
+    width: 100%;
+    height: 560px;
+}
+
+.text-main{
+    margin-left: 350px;
+}
+
+.filter{
+    background-color: rgba(0, 0, 0, 0.39);
+    color: white;
+    width: 100%;
+    height: 560px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.alternate-title{
+    font-size: 50px;
+}
+
+.subtitle{
+    font-size: 20px;
+}
+
+.main-search{
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 50em;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: white;
+}
+
+.main-search input{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 20px;
+    padding-left: 20px;
+    width: 100%;
+    outline: none;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.cursos{
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    background-color: white;
+    text-align: center;
+}
