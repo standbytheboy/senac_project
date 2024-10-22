@@ -49,7 +49,7 @@
 }
 
 .empresas {
-    width: 120px;
+    width: 130px;
 }
 
 .fa-magnifying-glass {
@@ -83,7 +83,7 @@
 .main-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 1fr .5fr .7fr;
+    grid-template-rows: 1fr .5fr .7fr 1.2fr;
 }
 
 .gif {
@@ -181,7 +181,7 @@ h2 {
 .fast-access {
     grid-column: 1/-1;
     grid-row: 3/4;
-    background-color: rgba(120, 122, 138, 0.295);
+    background-color: rgba(151, 155, 189, 0.295);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -192,14 +192,152 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .fast-access-cards {
-    background-color: rgb(244, 249, 253);
-    width: 200px;
-    height: 200px;
+    background-color: rgb(251, 253, 255);
+    width: 150px;
+    height: 150px;
     border-radius: 20px;
     display: flex;
     font-size: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 30px 0px;
+    color: rgb(1, 47, 100);
+    box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.1);;
+}
+
+.senac-explore {
+    grid-column: span 12;
+    grid-row: 4/5;
+    padding: 20px;
+}
+
+.title-explore {
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 0 40px;
+}
+
+.explore-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.cards-explore {
+    border-radius: 10px;
+    width: 260px;
+    height: 500px;
+    object-fit: fill;
+    background-size: cover;
+    color: white;
+    display: flex;
+    gap: 200px;
+    flex-wrap: wrap;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.subtitle-card-explore {
+    font-weight: 100;
+}
+
+.logo-explore {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.explore-1 {
+    background-image: url(./img/bolsas.png);
+}
+
+.explore-2 {
+    background-image: url(./img/panelinha.png);
+}
+
+.explore-3 {
+    background-image: url(./img/Explore-Po¿s-graduac¿a¿o.jpg);
+}
+
+.title-card-explore {
+    font-size: 25px;   
+}
+
+.down-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-title-card {
+    font-size: 30px;
+}
+
+.explore-btn {
+    background-color: white;
+    color: rgb(1, 47, 100);
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr 0.2fr;
+    background-color: rgb(3, 70, 146);
+    margin: 0 auto;
+    padding: 0 350px;
+}
+
+.logo-footer {
+    margin: 50px 0;
+}
+
+.links-footer {
+    display: flex;
+    gap: 50px;
+    margin: 50px 80px;
+}
+
+.list {
+    width: 80px;
+}
+
+.list li a {
+    color: white;
+    font-size: 15px;
+    display: flex;
+}
+
+.follow {
+    color: white;
+    margin: 80px 100px;
+}
+
+.follow-us {
+    display: flex;
+    margin: 20px 150px;
+    gap: 7px;
+}
+
+.social-footer {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
 }
