@@ -83,7 +83,7 @@
 .main-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 1fr .5fr .7fr 1.2fr;
+    grid-template-rows: 1fr .3fr .7fr 1.2fr;
 }
 
 .gif {
@@ -150,7 +150,7 @@ input::placeholder {
     background-color: white;
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: column;
     padding-bottom: 20px;
 }
@@ -161,7 +161,7 @@ h2 {
 }
 
 .cursos-title {
-    margin: 40px 0 20px;
+    margin: -20px 0 20px;
 }
 
 .card-group {
@@ -295,7 +295,7 @@ h2 {
 .footer{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 1fr 0.2fr;
+    grid-template-rows: 0.3fr .5fr 0.5fr;
     background-color: rgb(3, 70, 146);
     margin: 0 auto;
     padding: 0 350px;
@@ -303,12 +303,14 @@ h2 {
 
 .logo-footer {
     margin: 50px 0;
+    grid-row: 1/3;
 }
 
 .links-footer {
     display: flex;
     gap: 50px;
     margin: 50px 80px;
+    grid-row: 1/5;
 }
 
 .list {
@@ -322,22 +324,52 @@ h2 {
 }
 
 .follow {
+    grid-row: 2/-1;
+    grid-column: 6/-1;
     color: white;
-    margin: 80px 100px;
 }
 
 .follow-us {
     display: flex;
-    margin: 20px 150px;
-    gap: 7px;
+    gap: 10px;
 }
 
 .social-footer {
     background-color: white;
-    width: 30px;
-    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 6px;
+    width: 20px;
+    height: 20px;
     border-radius: 2px;
+    margin-top: 20px;
+}
+
+.logo-superior {
+    grid-column: 10/-1;
+    grid-row: 3/4;
+    margin-left: 10px;
+}
+
+.final-footer{
+    grid-template-columns: repeat(12, 1fr);
+    padding: 0 350px;
+    margin: 0 auto;
+    background-color: rgb(1, 37, 78);
+    color: white;
+    font-size: 12px;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.img-blindado {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
