@@ -6,31 +6,19 @@
     text-decoration: none;
 }
 
-
 .header-container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    background-color: white;
-    text-align: center;
-    margin: 0 auto;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 120px;
-    padding: 0 330px;
-    gap: 12px;
+    padding: 34px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
-.links {
-    width: 80px;
-}
-
-.logo {
-    grid-column: 1/2;
-    padding-left: 20px;
-}
-
-.margin {
-    margin-right: 8px;
+.logo img{
+    width: 85px;
+    margin-right: 10px;
 }
 
 .links a {
@@ -39,17 +27,11 @@
     font-weight: bold;
 }
 
-.bolsas {
-    width: 160px;
-    margin-left: -10px;
-}
-
-.unidades {
-    width: 90px;
-}
-
-.empresas {
-    width: 130px;
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 .fa-magnifying-glass {
@@ -87,26 +69,34 @@
 }
 
 .gif {
-    background-image: url("https://eventos.sp.senac.br/wp-content/uploads/2024/08/cover-evento-casa-aberta-senac-2024.webp");
     grid-column: 1/-1;
     width: 100%;
     height: 560px;
 }
+
+#background-video {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    width: 100%;
+    height: 560px;
+    object-fit: cover;
+ }
 
 .text-main {
     margin-left: 350px;
 }
 
 .filter {
-    background-color: rgba(0, 0, 0, 0.39);
-    color: white;
     width: 100%;
     height: 560px;
+    grid-column: 1/-1;
+    grid-row: 1/2;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: wrap;
+    background: linear-gradient(90deg, #665eff, rgba(0,0,0,.3));
 }
 
 .alternate-title {
@@ -116,6 +106,7 @@
 
 .subtitle {
     font-size: 20px;
+    color: white;
 }
 
 .main-search {

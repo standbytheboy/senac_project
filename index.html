@@ -14,39 +14,42 @@
 <body>
     <header>
         <ul class="header-container">
-            <li class="logo margin"><img width="85px"
-                    src="https://www.sp.senac.br/o/senac-theme/images/logo_senac_default.png" alt="Logo do Senac"></li>
+            <li class="logo margin"><img src="https://www.sp.senac.br/o/senac-theme/images/logo_senac_default.png"
+                    alt="Logo do Senac"></li>
             <li class="links"><a href="#">Cursos <i class="fa-solid fa-chevron-down"></i></a></li>
-            <li class="links bolsas"><a href="#">Bolsas e Descontos <i class="fa-solid fa-chevron-down"></i></a></li>
+            <li class="links"><a href="#">Bolsas e Descontos <i class="fa-solid fa-chevron-down"></i></a></li>
             <li class="links"><a href="#">Eventos <i class="fa-solid fa-up-right-from-square"></i></a></li>
-            <li class="links unidades"><a href="#">Unidades <i class="fa-solid fa-chevron-down"></i></a></li>
-            <li class="links empresas"><a href="#">Para empresas <i class="fa-solid fa-chevron-down"></i></a></li>
+            <li class="links"><a href="#">Unidades <i class="fa-solid fa-chevron-down"></i></a></li>
+            <li class="links"><a href="#">Para empresas <i class="fa-solid fa-chevron-down"></i></a></li>
             <li class="links"><a href="#">O Senac <i class="fa-solid fa-chevron-down"></i></a></li>
             <li class="links"><a href="#">Serviços <i class="fa-solid fa-chevron-down"></i></a></li>
-            <li class="search-head">
-                <p class="search-text"><i class="fa-solid fa-magnifying-glass"></i>Buscar</p>
-            </li>
-            <li class="login-btn"><i class="fa-solid fa-user"></i>
-                <p>Login / Área Exclusiva</p>
-            </li>
-            <li><img class="login-btn-icon" width="35px" src="img/bagpack.png" alt="Ícone de Mochila"></li>
+            <div class="flex">
+                <li class="search-head">
+                    <p class="search-text"><i class="fa-solid fa-magnifying-glass"></i>Buscar</p>
+                </li>
+                <li class="login-btn"><i class="fa-solid fa-user"></i>
+                    <p>Login / Área Exclusiva</p>
+                </li>
+                <li><img class="login-btn-icon" width="35px" src="img/bagpack.png" alt="Ícone de Mochila"></li>
+            </div>
         </ul>
     </header>
 
     <main class="main-container">
-        <section class="gif">
-            <div class="filter">
-                <div class="text-main">
-                    <h2 class="alternate-title">Quer saber? Senac</h2>
-                    <p class="subtitle">Desperte seu potencial para você ir longe na profissão e na vida.</p>
-                </div>
-                <form action="#" class="main-search">
-                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
-                    <input type="text" placeholder="O que você procura?">
-                </form>
+        <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+            <source src="./img/video-desktop-header.mp4" type="video/mp4"> 
+        </video>
+        <div class="filter">
+            <div class="text-main">
+                <h2 class="alternate-title">Quer saber? Senac</h2>
+                <p class="subtitle">Desperte seu potencial para você ir longe na profissão e na vida.</p>
             </div>
-        </section>
-
+            <form action="#" class="main-search">
+                <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                <input type="text" placeholder="O que você procura?">
+            </form>
+        </div>
+        
         <section class="cursos">
             <h2 class="cursos-title">Conheça nossos cursos</h2>
             <div class="card-group">
@@ -181,10 +184,10 @@
     <div class="final-footer">
         <div class="all">
             <p>Copyright &copy 2020. Todos os Direitos Reservados</p>
-        <p>Serviço Nacional de Aprendizagem Comercial - SP</p>
-        <p>CNPJ: 03.709.814/0001-98</p>
-        <p>Política de Privacidade.</p>
-        <img class="img-blindado" src="./img/seal.png" alt="Site Blindado">
+            <p>Serviço Nacional de Aprendizagem Comercial - SP</p>
+            <p>CNPJ: 03.709.814/0001-98</p>
+            <p>Política de Privacidade.</p>
+            <img class="img-blindado" src="./img/seal.png" alt="Site Blindado">
         </div>
     </div>
 </body>
