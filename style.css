@@ -1,300 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-family: Helvetica, sans-serif;
-    text-decoration: none;
-}
-
-.header-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 34px 0;
-    max-width: 1200px;
-    margin: 0 auto;
-    justify-content: space-between;
-}
-
-.logo img{
-    width: 85px;
-    margin-right: 10px;
-}
-
-.links a {
-    color: rgb(1, 47, 100);
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-}
-
-.fa-magnifying-glass {
-    margin-right: 5px;
-}
-
-.search-text {
-    font-size: 14px;
-    color: gray;
-    font-weight: bold;
-    width: 80px;
-}
-
-.login-btn {
-    background-color: rgb(0, 110, 255);
-    color: white;
-    border: 1px solid black;
-    border-radius: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    width: 180px;
-    height: 28px;
-    grid-column: 10/12;
-    font-weight: 500;
-    font-size: 12px;
-    font-weight: bold;
-}
-
-.main-container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 1fr .3fr .7fr 1.2fr;
-}
-
-.gif {
-    grid-column: 1/-1;
-    width: 100%;
-    height: 560px;
-}
-
-#background-video {
-    grid-column: 1/-1;
-    grid-row: 1/2;
-    width: 100%;
-    height: 560px;
-    object-fit: cover;
- }
-
-.text-main {
-    margin-left: 350px;
-}
-
-.filter {
-    width: 100%;
-    height: 560px;
-    grid-column: 1/-1;
-    grid-row: 1/2;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    background: linear-gradient(90deg, #665eff, rgba(0,0,0,.3));
-}
-
-.alternate-title {
-    font-size: 50px;
-    color: white;
-}
-
-.subtitle {
-    font-size: 20px;
-    color: white;
-}
-
-.main-search {
-    margin: 0 auto;
-    border: 2px solid white;
-    border-radius: 5px;
-    width: 50em;
-    height: 4em;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-    color: white;
-}
-
-.main-search input {
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
-    font-size: 20px;
-    padding-left: 20px;
-    width: 100%;
-    outline: none;
-    color: white;
-}
-
-input::placeholder {
-    color: white;
-}
-
-.cursos {
-    grid-column: 1/-1;
-    grid-row: 2/3;
-    background-color: white;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    padding-bottom: 20px;
-}
-
-h2 {
-    font-size: 38px;
-    color: rgb(120, 122, 138);
-}
-
-.cursos-title {
-    margin: -20px 0 20px;
-}
-
-.card-group {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.card {
-    padding: 10px 20px;
-    background-color: rgb(209, 133, 33);
-    border-radius: 5px;
-    color: white;
-    font-size: 18px;
-}
-
-.fast-access {
-    grid-column: 1/-1;
-    grid-row: 3/4;
-    background-color: rgba(151, 155, 189, 0.295);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.fast-access-cards {
-    background-color: rgb(251, 253, 255);
-    width: 150px;
-    height: 150px;
-    border-radius: 20px;
-    display: flex;
-    font-size: 20px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 40px 30px 0px;
-    color: rgb(1, 47, 100);
-    box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.1);;
-}
-
-.senac-explore {
-    grid-column: span 12;
-    grid-row: 4/5;
-    padding: 20px;
-}
-
-.title-explore {
-    text-align: center;
-    font-size: 25px;
-    margin: 30px 0 40px;
-}
-
-.explore-cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-bottom: 50px;
-}
-
-.cards-explore {
-    border-radius: 10px;
-    width: 260px;
-    height: 500px;
-    object-fit: fill;
-    background-size: cover;
-    color: white;
-    display: flex;
-    gap: 200px;
-    flex-wrap: wrap;
-    font-weight: bold;
-    padding: 40px;
-}
-
-.logo-explore {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-
-.explore-1 {
-    background-image: url(./img/bolsas.png);
-}
-
-.explore-2 {
-    background-image: url(./img/panelinha.png);
-}
-
-.explore-3 {
-    background-image: url(./img/Explore-Po¿s-graduac¿a¿o.jpg);
-}
-
-.up-content {
-    display: flex;
-    align-items: center;
-    margin-top: -30px;
-}
-
-.try {
-    padding-left: 20px;
-}
-
-.title-card-explore {
-    font-size: 20px;
-}
-
-
-.subtitle-card-explore {
-    font-weight: 100;
-}
-
-.down-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: -50px;
-}
-
-.main-title-card {
-    font-size: 30px;
-}
-
-.explore-btn {
-    background-color: white;
-    color: rgb(1, 47, 100);
-    width: 150px;
-    height: 40px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: -30px;
-}
-
 .footer{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -375,4 +78,39 @@ h2 {
     background-color: white;
     padding: 5px;
     border-radius: 5px;
+}
+
+/* ============================== RESPONSIVIDADE ============================== */
+@media (max-width: 1024px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 0.55fr .25fr .5fr 1.2fr;
+    }
+
+    .header-container {
+        padding: 50px;
+    }
+
+    .cursos {
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .explore-cards {
+        max-width: 100%;
+        overflow: hidden;
+        flex-wrap: nowrap;
+    }
+
+    .fast-access, footer {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
 }
