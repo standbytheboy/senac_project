@@ -13,26 +13,37 @@
 
 <body>
     <header>
-        <ul class="header-container flex">
-            <li class="logo margin"><img src="https://www.sp.senac.br/o/senac-theme/images/logo_senac_default.png"
-                    alt="Logo do Senac"></li>
-            <li class="links"><a href="#">Cursos <i class="fa-solid fa-chevron-down"></i></a></li>
-            <li class="links"><a href="#">Bolsas e Descontos <i class="fa-solid fa-chevron-down"></i></a></li>
-            <li class="links"><a href="#">Eventos <i class="fa-solid fa-up-right-from-square"></i></a></li>
-            <li class="links"><a href="#">Unidades <i class="fa-solid fa-chevron-down"></i></a></li>
-            <li class="links"><a href="#">Para empresas <i class="fa-solid fa-chevron-down"></i></a></li>
-            <li class="links"><a href="#">O Senac <i class="fa-solid fa-chevron-down"></i></a></li>
-            <li class="links"><a href="#">Serviços <i class="fa-solid fa-chevron-down"></i></a></li>
-            <div class="flex">
-                <li class="search-head">
-                    <p class="search-text"><i class="fa-solid fa-magnifying-glass"></i>Buscar</p>
-                </li>
-                <li class="login-btn"><i class="fa-solid fa-user"></i>
-                    <p>Login / Área Exclusiva</p>
-                </li>
-                <li><img class="login-btn-icon" width="35px" src="img/bagpack.png" alt="Ícone de Mochila"></li>
+        <div class="header-container flex">
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-        </ul>
+            <li class="logo margin">
+                <img src="https://www.sp.senac.br/o/senac-theme/images/logo_senac_default.png" alt="Logo do Senac">
+            </li>
+
+            <li><img class="backpack-icon" width="35px" src="img/bagpack.png" alt="Ícone de Mochila"></li>
+            
+            <ul class="nav-links" id="nav-links">
+                <li class="links"><a href="#">Cursos <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li class="links"><a href="#">Bolsas e Descontos <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li class="links"><a href="#">Eventos <i class="fa-solid fa-up-right-from-square"></i></a></li>
+                <li class="links"><a href="#">Unidades <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li class="links"><a href="#">Para empresas <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li class="links"><a href="#">O Senac <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li class="links"><a href="#">Serviços <i class="fa-solid fa-chevron-down"></i></a></li>
+                <div class="flex">
+                    <li class="search-head">
+                        <p class="search-text"><i class="fa-solid fa-magnifying-glass"></i>Buscar</p>
+                    </li>
+                    <li class="login-btn"><i class="fa-solid fa-user"></i>
+                        <p>Login / Área Exclusiva</p>
+                    </li>
+                    <li><img class="login-btn-icon" width="35px" src="img/bagpack.png" alt="Ícone de Mochila"></li>
+                </div>
+            </ul>
+        </div>
     </header>
 
     <main class="main-container">
@@ -259,6 +270,8 @@
             </div>
         </div>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
