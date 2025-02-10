@@ -17,7 +17,7 @@
     width: 85px;
 }
 
-.links a {
+.links a, .fa-brands {
     color: rgb(1, 47, 100);
     font-size: 14px;
     font-weight: bold;
@@ -264,7 +264,6 @@ h2 {
     background-color: rgb(3, 70, 146);
     margin: 0 auto;
     padding: 0 350px;
-    
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 0.3fr .5fr 0.5fr;
@@ -321,19 +320,19 @@ h2 {
     margin-left: 10px;
 }
 
-.final-footer{
-    grid-template-columns: repeat(12, 1fr);
-    padding: 0 350px;
-    margin: 0 auto;
+.footer-bg {
     background-color: rgb(1, 37, 78);
+}
+
+.final-footer{
+    max-width: 1200px;
+    margin: 0 auto;
     color: white;
     font-size: 12px;
 }
 
 .all {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 15px 0;
 }
 
